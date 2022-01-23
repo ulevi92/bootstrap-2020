@@ -1,0 +1,18 @@
+.latest-body, .latest-header, .latest-footer{
+  img{
+    height: 260px;
+  }
+  p{
+    margin-top: 12px;
+    margin-bottom: 32px;
+  }
+  a{
+    margin-bottom: 12px;
+  }
+}
+
+.latest-body, .latest-footer{
+  img{
+    margin-top: 0;
+  }
+}

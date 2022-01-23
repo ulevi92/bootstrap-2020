@@ -1,0 +1,103 @@
+//colors
+$gray-100: #f4f5f4;
+$gray-500: #c3cbcd;
+$gray-800: #373f41;
+
+$primary: #3c64b1;
+$secondary: #737b7d;
+$headings-color: $gray-800;
+
+//body
+$body-color: $gray-800;
+
+// Links
+//
+// Style anchor elements.
+
+$link-hover-decoration: none;
+
+// Options
+
+$enable-rounded: false;
+
+// Spacing
+//
+// Control the default styling of most Bootstrap elements by modifying these
+// variables. Mostly focused on spacing.
+// You can add more entries to the $spacers map, should you need more variation.
+
+$spacer: 1rem !default;
+$spacers: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$spacers: map-merge(
+  (
+    0: 0,
+    1: (
+      $spacer * 0.25,
+    ),
+    2: (
+      $spacer * 0.5,
+    ),
+    3: $spacer,
+    4: (
+      $spacer * 1.5,
+    ),
+    5: (
+      $spacer * 2,
+    ),
+    6: (
+      $spacer * 3,
+    ),
+  ),
+  $spacers
+);
+
+.mr-89px {
+  margin-right: 89px;
+}
+
+// Typography
+
+$font-family-base: "Muli", sans-serif;
+
+$font-size-base: 0.875rem;
+$font-size-lg: 1.125rem;
+$font-size-sm: 0.75rem;
+
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+$font-weight-bolder: 800;
+
+$h6-font-size: 1.125rem;
+
+$headings-margin-bottom: 0;
+
+// Navbar
+
+$navbar-padding-y: 1.75rem;
+
+$navbar-brand-font-size: 1.5rem;
+
+// Buttons
+
+$btn-padding-y: 0.75rem;
+$btn-padding-x: 1.125rem;
+
+$btn-font-size: 12px;
+$btn-font-weight: $font-weight-bold;
+
+$btn-focus-width: 0;
+
+//forms
+$input-padding-y: 0.6875rem;
+$input-padding-x: 1rem;
+
+$input-color: $secondary;
+$input-bg: $gray-100;
+
+//Images
+img {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  width: 100%;
+}

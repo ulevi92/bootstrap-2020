@@ -1,0 +1,17 @@
+.page-button .btn{
+  height: 32px;
+  width: 32px;
+  padding: 0;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-color: #E2E5E6;
+  &:last-child{
+    margin-right: 0;
+  }
+  &:hover{
+    border-color: $secondary;
+  }
+}
